@@ -14,7 +14,7 @@ public class Geometry {
 		r=s.nextDouble();
 				
 		area=getAreaofCircle(r);
-		System.out.println("Area is:"+area);
+		System.out.println("Area  is:"+area);
 		
 		System.out.println("Enter the radius:");
 		r=s.nextDouble();
