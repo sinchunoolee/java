@@ -12,17 +12,20 @@ public class CheckTwoNumareEqual {
 		System.out.println("enter your second number: ");
 		b=s.nextInt();
 		
-		int r=Twonum(a,b);
+		if(Twonum(a,b)){System.out.println("given numbers are equal");}
+                else {System.out.println("given numbers are not equal");}
+}
 
 		
 	}
-	public static Integer Twonum(int a, int b) {
-		int r=0; 
+	public static Boolean Twonum(int a, int b) {
+		/*int r=0; 
 		if(a==b)
 			System.out.println("given numbers are equal");
 		else
 			System.out.println("given numbers are not equal");
-		return r;
+		return r;*/
+                return a==b;
 	
 	}
 
